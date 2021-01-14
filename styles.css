@@ -1,0 +1,39 @@
+#board{
+    padding: 3em;
+    text-align: center;
+}
+
+.row{
+    height: 100px;
+    width: 303px;
+    clear: both;
+}
+
+.row >div{
+    height: 100px;
+    width: 100px;
+    /* border:1px solid black; */
+    float: left;
+     
+    /* border-top: solid green;
+    border-bottom: solid blue;
+    border-left: blueviolet solid;
+    border-right: indianred solid; */
+}
+.top{
+    border-bottom: 1px solid black;
+}
+
+.bottom{
+    border-top: 1px solid blue;
+}
+
+.middle{}
+
+.left{
+    border-right: 1px solid blue;
+}
+
+.right{
+    border-left: 1px solid blue;
+}
